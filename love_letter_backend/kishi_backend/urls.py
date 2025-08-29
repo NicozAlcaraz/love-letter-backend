@@ -8,7 +8,7 @@ api_prefix = "api/v1/"
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path(f"{api_prefix}reply/", include("reply.urls")),
+    path(f"{api_prefix}letters/", include("letters.urls")),
 ]
 
 

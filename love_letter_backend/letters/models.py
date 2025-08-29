@@ -1,5 +1,5 @@
 from django.db import models
 
-class Reply(models.Model):
+class Letters(models.Model):
     reply = models.TextField()
     datetime = models.DateTimeField(auto_now=True)
